@@ -5,26 +5,26 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: rouge
 markdown: kramdown
-disqus: dbyll
-google_analytics: dbyll
-title: dbyll
+disqus: preppydata
+google_analytics: preppydata
+title: preppydata
 
 defaults:
   -
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: PreppyData
 
 description: Stylish Jekyll Theme
 author:
-  name: dbyll
+  name: preppydata
   email: dbyll@ismaildemirbilek.com
-  github: dbtek
+  github: https://github.com/GIPSYDANGER-1/PreppyData
   twitter: dbtek
   pinterest: asd123
   linkedin: asd123
-  bio: Your stylish, minimalist theme!
+  bio: Easy Data Preprocessor!
   email_md5: 726351295ec82e145928582f595aa3aa
 
 rss_path: feed.xml
