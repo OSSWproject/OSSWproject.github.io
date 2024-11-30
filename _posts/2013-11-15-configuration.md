@@ -1,23 +1,18 @@
 ---
 layout: post
-title: Configuration
-categories: [general, setup, demo]
-tags: [demo, dbyll, dbtek, setup]
+title: Project Overview
 fullview: true
 ---
 
-In your config file change these settings
+We Provide Multiple Features for Data Preprocessing.
 
 {% highlight yaml %}
-title: dbyll
-author:  
-  name: yourname  
-  email: youremail  
-  github: asd123  
-  twitter: asd123  
-  pinterest: asd123  
-  linkedin: asd123  
-  resume: asd123  
-  bio: Your stylish,  minimalist theme!  
-  email_md5: md5ofemail  
+
+  Handling Missing Values: Replace with Mean Value Median, or Drop the Missing Row
+  Handling Outliers: Eliminate by IQR Methods or Z-Score Methods
+  Scaling: Standard, Min-Max, Robust Scaling
+  Encoding: One-Hot Encoding, Label Encoding 
 {% endhighlight %}
+
+
+Through these options, you can easily obtain a clean and preprocessed dataset that is ready for analysis. This streamlined approach ensures that your data is well-organized and free from inconsistencies, making it more suitable for various analytical tasks.
